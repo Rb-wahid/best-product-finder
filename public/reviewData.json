@@ -1,0 +1,46 @@
+[
+  {
+    "id": "624ad91ac87faee9282576fa",
+    "picture": "https://randomuser.me/api/portraits/med/women/95.jpg",
+    "name": "Stella Dufour",
+    "review": "The following ram works perfectly to upgrade from 8 to 16GB:\nKingston 8GB DDR4 2666MHZ SODIMM KCP426SS8/8\nThis is for the Core i5-9300H version, but should be just fine for any AN515-54-58XX model.\n\nComputer is great, by the way.",
+    "rating": 5.0
+  },
+  {
+    "id": "624ada9924bdbee634431cd2",
+    "picture": "https://randomuser.me/api/portraits/med/men/12.jpg",
+    "name": "Kelly Myers",
+    "review": "The unit arrived dead. Plugged in the AC adapter firmly, checked cords, (we had a second AC adapter of the same specs). Power lights never lit up and the unit would not turn on.\n\nI ordered a second one. It just arrived and it game dead. I have to send this one back now too.",
+    "rating": 1.0
+  },
+  {
+    "id": "624ad958412a6a3bf4329949",
+    "picture": "https://randomuser.me/api/portraits/med/men/2.jpg",
+    "name": "Eric Campos",
+    "review": "I love this laptop beause it is low priced with very advanved hardware and also has a sleek look to it, I can play games at 100+ fps consistently and also allows mr to take care of my work/daily needs, overrall this comeupter is fulfilling what I wanted it tto do and more I would reccoemnd buying this if looking for a Low Priced but high capacity laptop.",
+    "rating": 5.0
+  },
+
+  {
+    "id": "624ad99cdfe899c07b73b7b0",
+    "picture": "https://randomuser.me/api/portraits/med/women/72.jpg",
+    "name": "Abigail Lee",
+    "review": "Parents bought this for my sister and this is perfect for her to start on it's good for light-medium gaming. With school converting to online it's perfect as well. This computer also has good battery life away from the charger while might use with heavy use not so much it's good though. Overall the computer is good for it's current price and an amazing deal.",
+    "rating": 4.0
+  },
+
+  {
+    "id": "624ada1d94871104044b5336",
+    "picture": "https://randomuser.me/api/portraits/med/women/66.jpg",
+    "name": "Emmanuelle Garcia",
+    "review": "For a budget gaming laptop, this Acer Nitro 5 has good enough specs, the Core i5 and the RTX 3050 are sufficient. The problem and it's a big one, is the display. The image on this laptop is AWFUL. No matter how much I tried to calibrate the colors, it looks bad. The colors are washed and the screen is dim. whether it's game or a movie this screen won't do it justice. Too bad because I like many other aspects of this laptop like the relatively long battery life and the red-colored keyboard. I find myself playing more on my 2 years old Legion 5 which looks way better than this newer Acer Nitro 5. Even for under $1000, you can get something better.",
+    "rating": 2.0
+  },
+  {
+    "id": "624ad9dc4a54737616ca5f74",
+    "picture": "https://randomuser.me/api/portraits/med/men/35.jpg",
+    "name": "Bernard Chapman",
+    "review": "Having purchased this I wanted to double the ram to 32gb and ordered another 16gb 3200 ram chip, after opening (which was a total PITA) I find they populated it with two 8gb sticks leaving no room for expansion without buying two additonal ram chips. They go on and on about expansion in the product description but if you have no open expansion slots it's not expandable. I was able to put in another nvme stick but now I have it sitting here open and waiting for the additional 16gb chip I had to order so $150.00 later for ram. I'm not putting the case bottom back on till it gets here because you have to pry like %$%$ to get it off and I don't want to damage the notebook. How hard would it be to have a seperate panel that comes off to do the upgrades... geesh.",
+    "rating": 3.0
+  }
+]
