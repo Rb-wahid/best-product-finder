@@ -6,23 +6,28 @@ function CustomLink({ children, to, ...props }: LinkProps) {
   let match = useMatch({ path: resolved.pathname, end: true });
 
   let unactiveStyle = {
-    color: "black",
-    paddingBottom: "5px",
-    marginRight: "8px",
-    borderBottom: "4px solid gray",
+    color: "white",
+    paddingBottom: "7px",
+    marginRight: "10px",
+    // borderBottom: "4px solid gray",
   };
 
   let activeStyle = {
-    color: "rgb(187, 77, 77)",
-    paddingBottom: "5px",
-    marginRight: "8px",
-    borderBottom: "4px solid rgb(163, 44, 44)",
+    color: "white",
+    marginRight: "10px",
     fontWeight: "700",
   };
 
   return (
     <div>
-      <Link style={match ? activeStyle : unactiveStyle} to={to} {...props}>
+      <Link
+        className={
+          match && "bg-blue-500 shadow-blue-500/50 shadow-md rounded-md md:px-3 md:py-2"
+        }
+        style={match ? activeStyle : unactiveStyle}
+        to={to}
+        {...props}
+      >
         {children}
       </Link>
     </div>
