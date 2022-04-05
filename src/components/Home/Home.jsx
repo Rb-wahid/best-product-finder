@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import img1 from "../../assets/image/Acer-Nitro-5_1.png";
 import useReview from "../hooks/useReview";
 import Review from "../Review/Review";
@@ -6,6 +7,11 @@ import "./Home.css";
 
 const Home = () => {
   const [reviews, setReviews] = useReview();
+  const nagivate = useNavigate();
+
+  const handleNavigate = () => {
+    nagivate("/reviews");
+  };
   return (
     <div className="">
       <div className=" myGrid ml-20 my-20">
@@ -53,7 +59,10 @@ const Home = () => {
           ))}
         </div>
         <div className="flex justify-center items-center pb-28">
-          <button class="text-white-500 font-bold px-5 py-3 rounded-md bg-green-600 shadow-md shadow-green-400/50 ...">
+          <button
+            onClick={handleNavigate}
+            class="text-white-500 font-bold px-5 py-3 rounded-md bg-green-600 shadow-md shadow-green-400/50 ..."
+          >
             See All Review
           </button>
         </div>
