@@ -1,0 +1,16 @@
+.myGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .myGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+}
