@@ -4,7 +4,7 @@ import Linechart from "../Chart/Linechart";
 import useDashboard from "../hooks/useDashboard";
 
 const Dashboard = () => {
-  const [dashboard, setDashboard] = useDashboard();
+  const dashboard = useDashboard();
   return (
     <div className="h-screen flex flex-col justify-center items-center pb-36 ">
       <div className="mb-12">

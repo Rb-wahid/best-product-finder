@@ -8,7 +8,7 @@ const useDashboard = () => {
     const url = "dashboardData.json";
     axios.get(url).then(({ data }) => setDashboard(data));
   }, []);
-  return [dashboard, setDashboard];
+  return dashboard;
 };
 
 export default useDashboard;

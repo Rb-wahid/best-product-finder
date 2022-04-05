@@ -3,7 +3,7 @@ import useReview from "../hooks/useReview";
 import Review from "../Review/Review";
 
 const Reviews = () => {
-  const [reviews, setReviews] = useReview();
+  const reviews = useReview();
   return (
     <div>
       <h2 className=" font-semibold text-4xl text-cyan-400 text-center my-6">

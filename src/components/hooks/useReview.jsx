@@ -9,7 +9,7 @@ const useReview = () => {
     axios.get(url).then(({ data }) => setReviews(data));
   }, []);
 
-  return [reviews, setReviews];
+  return reviews;
 };
 
 export default useReview;

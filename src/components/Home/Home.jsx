@@ -6,7 +6,7 @@ import Review from "../Review/Review";
 import "./Home.css";
 
 const Home = () => {
-  const [reviews, setReviews] = useReview();
+  const reviews = useReview();
   const nagivate = useNavigate();
 
   const handleNavigate = () => {
