@@ -43,7 +43,21 @@ const Home = () => {
           <img width={"500px"} src={img1} alt="" />
         </div>
       </div>
-     
+      <div>
+        <h2 className=" text-cyan-400  text-4xl font-semibold text-center pb-6">
+          Customers Review (3)
+        </h2>
+        <div className="px-5 pb-12 md:w-[70%] m-auto  grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 ">
+          {reviews.slice(0, 3).map((review) => (
+            <Review key={review.id} review={review} />
+          ))}
+        </div>
+        <div className="flex justify-center items-center pb-28">
+          <button class="text-white-500 font-bold px-5 py-3 rounded-md bg-green-600 shadow-md shadow-green-400/50 ...">
+            See All Review
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
